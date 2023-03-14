@@ -611,7 +611,7 @@ PrefabInstance:
     - target: {fileID: 4272636329923709721, guid: 0d7655178c8cb5540aa69a3d3bcb9359,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.608265
+      value: 4.02
       objectReference: {fileID: 0}
     - target: {fileID: 4272636329923709721, guid: 0d7655178c8cb5540aa69a3d3bcb9359,
         type: 3}
@@ -621,7 +621,7 @@ PrefabInstance:
     - target: {fileID: 4272636329923709721, guid: 0d7655178c8cb5540aa69a3d3bcb9359,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.80451846
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: 4272636329923709721, guid: 0d7655178c8cb5540aa69a3d3bcb9359,
         type: 3}
@@ -668,6 +668,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d7655178c8cb5540aa69a3d3bcb9359, type: 3}
+--- !u!1 &1758942857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758942859}
+  - component: {fileID: 1758942858}
+  m_Layer: 0
+  m_Name: LevelGrid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1758942858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758942857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef07911e3a48ab4cb3a44cf80f3c514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridDebugObjectPrefab: {fileID: 2806814951993727032, guid: 14b45a10230b24b4d8e2ea71d13f24f5,
+    type: 3}
+--- !u!4 &1758942859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758942857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1836780891
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,8 +743,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a1e7e34c4c2e3498db78ecfa91e122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridDebugObjectPrefab: {fileID: 2806814951993727032, guid: 14b45a10230b24b4d8e2ea71d13f24f5,
-    type: 3}
 --- !u!4 &1836780893
 Transform:
   m_ObjectHideFlags: 0
